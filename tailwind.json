@@ -1,0 +1,88 @@
+{
+	"flex": {
+		"style": {
+			"display": "flex"
+		}
+	},
+	"flex-1": {
+		"style": {
+			"flexGrow": 1,
+			"flexShrink": 1,
+			"flexBasis": "0%"
+		}
+	},
+	"justify-center": {
+		"style": {
+			"justifyContent": "center"
+		}
+	},
+	"rounded-sm": {
+		"style": {
+			"borderTopLeftRadius": 2,
+			"borderTopRightRadius": 2,
+			"borderBottomRightRadius": 2,
+			"borderBottomLeftRadius": 2
+		}
+	},
+	"border-2": {
+		"style": {
+			"borderTopWidth": 2,
+			"borderRightWidth": 2,
+			"borderBottomWidth": 2,
+			"borderLeftWidth": 2
+		}
+	},
+	"border-4": {
+		"style": {
+			"borderTopWidth": 4,
+			"borderRightWidth": 4,
+			"borderBottomWidth": 4,
+			"borderLeftWidth": 4
+		}
+	},
+	"border-gray-500": {
+		"style": {
+			"--tw-border-opacity": 1,
+			"borderTopColor": "rgb(107 114 128 / var(--tw-border-opacity, 1))",
+			"borderRightColor": "rgb(107 114 128 / var(--tw-border-opacity, 1))",
+			"borderBottomColor": "rgb(107 114 128 / var(--tw-border-opacity, 1))",
+			"borderLeftColor": "rgb(107 114 128 / var(--tw-border-opacity, 1))"
+		}
+	},
+	"border-gray-300": {
+		"style": {
+			"--tw-border-opacity": 1,
+			"borderTopColor": "rgb(209 213 219 / var(--tw-border-opacity, 1))",
+			"borderRightColor": "rgb(209 213 219 / var(--tw-border-opacity, 1))",
+			"borderBottomColor": "rgb(209 213 219 / var(--tw-border-opacity, 1))",
+			"borderLeftColor": "rgb(209 213 219 / var(--tw-border-opacity, 1))"
+		}
+	},
+	"border-red-400": {
+		"style": {
+			"--tw-border-opacity": 1,
+			"borderTopColor": "rgb(248 113 113 / var(--tw-border-opacity, 1))",
+			"borderRightColor": "rgb(248 113 113 / var(--tw-border-opacity, 1))",
+			"borderBottomColor": "rgb(248 113 113 / var(--tw-border-opacity, 1))",
+			"borderLeftColor": "rgb(248 113 113 / var(--tw-border-opacity, 1))"
+		}
+	},
+	"border-t-slate-400": {
+		"style": {
+			"--tw-border-opacity": 1,
+			"borderTopColor": "rgb(148 163 184 / var(--tw-border-opacity, 1))"
+		}
+	},
+	"bg-black": {
+		"style": {
+			"--tw-bg-opacity": 1,
+			"backgroundColor": "rgb(0 0 0 / var(--tw-bg-opacity, 1))"
+		}
+	},
+	"bg-slate-100": {
+		"style": {
+			"--tw-bg-opacity": 1,
+			"backgroundColor": "rgb(241 245 249 / var(--tw-bg-opacity, 1))"
+		}
+	}
+}

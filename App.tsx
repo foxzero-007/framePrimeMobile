@@ -7,15 +7,20 @@
 
 import { NewAppScreen } from '@react-native/new-app-screen';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import SmoothCard from './src/render/SmoothCard';
+import { TailwindProvider } from 'tailwind-rn';
+import utilities from './tailwind.json';
 
-function App() {
+const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
-    </View>
+    /** @ts-ignore */
+    <TailwindProvider utilities={utilities}>
+      <View style={styles.container}>
+        <SmoothCard></SmoothCard>
+      </View>
+    </TailwindProvider>
   );
 }
 
