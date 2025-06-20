@@ -5006,7 +5006,7 @@ __metadata:
     react-native-deck-swiper: "npm:^2.0.18"
     react-test-renderer: "npm:19.1.0"
     tailwind-rn: "npm:^4.2.0"
-    tailwindcss: "npm:^3.2.x"
+    tailwindcss: "npm:^3.1.x"
     typescript: "npm:^5.8.3"
   languageName: unknown
   linkType: soft
@@ -9261,7 +9261,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.2.x":
+"tailwindcss@npm:^3.1.x":
   version: 3.4.17
   resolution: "tailwindcss@npm:3.4.17"
   dependencies:

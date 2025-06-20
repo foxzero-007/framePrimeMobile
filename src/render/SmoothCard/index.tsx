@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View } from "react-native"
 import Swiper from "react-native-deck-swiper"
-import { useTailwind } from "tailwind-rn";
 
 const styles = StyleSheet.create({
   container: {
@@ -23,14 +22,13 @@ const styles = StyleSheet.create({
 });
 
 const SmoothCard = () => {
-  const tailwind = useTailwind();
   return (
-    <View style={tailwind('flex-1 bg-black')}>
+    <View style={styles.container}>
       <Swiper
         cards={['DO', 'MORE', 'OF', 'WHAT', 'MAKES', 'YOU', 'HAPPY']}
         renderCard={(card) => {
           return (
-            <View style={tailwind('flex-1 rounded-sm border-2 border-red-400 justify-center bg-slate-100')}>
+            <View style={styles.card}>
               <Text style={styles.text}>{card}</Text>
             </View>
           )

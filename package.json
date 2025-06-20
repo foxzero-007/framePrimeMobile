@@ -7,16 +7,13 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest",
-    "build:tailwind": "tailwindcss --input input.css --output tailwind.css --no-autoprefixer && tailwind-rn",
-    "dev:tailwind": "concurrently \"tailwindcss --input input.css --output tailwind.css --no-autoprefixer --watch\" \"tailwind-rn --watch\""
+    "test": "jest"
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.80.0",
     "react": "19.1.0",
     "react-native": "0.80.0",
-    "react-native-deck-swiper": "^2.0.18",
-    "tailwind-rn": "^4.2.0"
+    "react-native-deck-swiper": "^2.0.18"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -39,7 +36,6 @@
     "postcss": "^8.5.6",
     "prettier": "2.8.8",
     "react-test-renderer": "19.1.0",
-    "tailwindcss": "^3.2.x",
     "typescript": "^5.8.3"
   },
   "engines": {
