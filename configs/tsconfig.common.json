@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist/plugin",
+    "module": "CommonJS",
+    "declaration": true,
+    "declarationDir": "../dist/plugin/types"
+  },
+  "include": ["../scripts/babelPlugins/**/*"]
+}

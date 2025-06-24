@@ -76,3 +76,5 @@ yarn-error.log
 
 # rnStyle.js
 *.rnstyle.js
+
+/dist

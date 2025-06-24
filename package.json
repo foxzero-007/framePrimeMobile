@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "dev:ios": "yarn watch:babel & yarn watch:less & react-native run-ios",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "watch:less": "tsx ./scripts/watchLessToRnstyle.ts"
+    "watch:less": "tsx --tsconfig ./configs/tsconfig.json ./scripts/watchLessToRnstyle.ts",
+    "watch:babel": "tsc --project ./configs/tsconfig.common.json --watch --noCheck"
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.80.0",
@@ -22,9 +24,11 @@
     "tsc": "^2.0.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
+    "@babel/core": "^7.27.4",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
+    "@babel/traverse": "^7.27.4",
+    "@babel/types": "^7.27.6",
     "@react-native-community/cli": "19.0.0",
     "@react-native-community/cli-platform-android": "19.0.0",
     "@react-native-community/cli-platform-ios": "19.0.0",
@@ -32,6 +36,7 @@
     "@react-native/eslint-config": "0.80.0",
     "@react-native/metro-config": "0.80.0",
     "@react-native/typescript-config": "0.80.0",
+    "@types/babel__traverse": "^7",
     "@types/chokidar": "^2.1.7",
     "@types/jest": "^29.5.13",
     "@types/less": "^3.0.8",
